@@ -43,7 +43,7 @@
     linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
   outline: calc(var(--w)/2) solid #0009;
   outline-offset: calc(var(--w)/-2 - 2*var(--s));
-  transition: .4s;
+  transition: .5s;
   cursor: pointer;
 }
 img:hover {
@@ -52,13 +52,16 @@ img:hover {
   --_i: calc(100% - 2*var(--s));
 }
 
-	img {
+img {
 border-radius: 50%;
+margin:50px;
 }
 
 
+
+
 .header {
-  	height: 100vh;
+  	height: 40vh;
   	background-image: 
 	  linear-gradient(to right bottom, 
      rgba(85, 107, 47, 8 ),
@@ -70,12 +73,21 @@ border-radius: 50%;
   	position: relative;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	header-image-menu:
+    width: 100%;
+    margin: none;
+    padding: none;
+	op: 200px;
+    position: relative;
+
+	
 }
+
 
 
 .footer{
   	height: 5vh;
-  	 background-color: #e8e8e8;
+ 
 	background-size: cover;
   	background-position: top;
   	position: relative;
@@ -104,7 +116,21 @@ body {
   grid-auto-flow: column;
   gap: 20px;
   background: #e8e8e8;
+ 
 }
+
+div_DesItem1 {
+color:red;
+}
+div_DesItem2 {
+color:red;
+}
+div_DesItem3 {
+color:red;
+}
+
+
+
 
 .styled {
   border: 0;
@@ -157,16 +183,16 @@ body {
  
 	<div_img1/><br/>
   
-	<div_DesItem1>
+	
  </center>
- 
+ <div_DesItem1>
  
   <center> 
 	<table>
 		<tr>
-			<td width="255px" Align=Center> <b>Tee Shirt Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td>
-			<td width="255px" Align=Center> <b>Tee Shirt Rouge </b> <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td>
-			<td width="255px" Align=Center> <b>Tee Shirt Bleu </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td>
+			<td width="380px" Align=Center> <b>Tee Shirt Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
+			<td width="380px" Align=Center> <b>Tee Shirt Rouge </b> <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
+			<td width="380px" Align=Center> <b>Tee Shirt Bleu </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
 
 
 
@@ -192,16 +218,16 @@ body {
      <center>
 		<table>
  			<tr>
-				<td width="255px" Align=Center> <b>Tee Shirt Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td >
-				<td width="255px" Align=Center> <b>Tee Shirt Rouge </b> <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td>
-				<td width="255px" Align=Center> <b>Tee Shirt Bleu </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td>
+				<td width="380px" Align=Center> <b>Tee Shirt Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
+				<td width="380px" Align=Center> <b>Tee Shirt Rouge </b> <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
+				<td width="380px" Align=Center> <b>Tee Shirt Bleu </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td>
 
 			</tr>
 		
 	</table>  
 	
 	</center>
-  	<div_DesItem3/>
+  	<div_DesItem2/>
 	
 	<br>
   <center>
@@ -216,7 +242,7 @@ body {
      <center>
 		<table>
  			<tr>
-				<td width="255px" Align=Center> <b>Short Doublé Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"></td >
+				<td width="380px" Align=Center> <b>Short Doublé Gris </b>  <br> Prix = 2200 DA<br> Livraison 58 Wilaya <br><br><input class="favorite styled" type="button" value="Commander" button onclick="location.href='https://forms.gle/AztKM2vP616ZNGHv7'" type="button"><br/></td >
 				
 			</tr>
 		
